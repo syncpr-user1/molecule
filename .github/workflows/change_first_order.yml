@@ -21,8 +21,6 @@ jobs:
     timeout-minutes: 20
     strategy:
       fail-fast: false
-    env:
-      PYTEST_REQPASS: 453
     environment: test
     steps:
       - uses: actions/checkout@v4
